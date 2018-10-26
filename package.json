@@ -1,0 +1,22 @@
+{
+  "name": "lunch-learn",
+  "version": "1.0.0",
+  "description": "react starter project for teaching dev team about react",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack"
+  },
+  "author": "sara given",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.3",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.1"
+  }
+}

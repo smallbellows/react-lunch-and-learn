@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lunch &amp; Learn</title>
+    <script src="app.bundle.js" ></script>
+
+    <style>
+        body {
+            font-family: sans-serif;
+            color: rgb(72, 69, 81);
+        }
+
+        ul {
+            list-style: none;
+            margin-left: 0;
+            padding-left: 0;
+        }
+
+        li {
+            border-bottom: 1px solid grey;
+            display: flex; 
+            justify-content: space-between;
+            align-content: center;
+        }
+        li:nth-child(even) {
+            background: #dad7e6;
+        }
+        li button {
+            width: 15%;
+            margin: 5%;
+            padding: 2%;
+            background: rgb(32, 160, 189);
+            border: 1px solid black;
+            border-radius: 4%;
+            box-shadow: none;
+            color: white;
+            font-variant: all-petite-caps;
+            font-size: 0.9rem;
+        }
+
+        .content {
+            display: flex;
+            align-items: space-around;
+        }
+        .content > div {
+            flex: 1 0 auto;
+            border: 1px solid gainsboro;
+            margin: 1%;
+            padding: 1%;
+        }
+    </style>
+</head>
+<body>
+    <div id="root"/>
+</body>
+</html>
